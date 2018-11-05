@@ -21,7 +21,7 @@
       </div>
 
       <!-- NOTE Registro -->
-      <div class="col-lg-3 col-md-3 col-sm-4 col-6 register px-0 pl-lg-3">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 register px-0 pr-lg-3">
         <ul class="list-inline text-right">
           <li class="list-inline-item">
             <a href="#modalSignIn" data-toggle="modal">Ingresar</a>
@@ -63,7 +63,7 @@
       </div>
 
       <!-- NOTE Carrito de compras -->
-      <div class="col-lg-3 col-md-3 col-sm-2 col-12 mt-3 pr-lg-0 px-0" id="shoppingCar">
+      <div class="col-lg-3 col-md-3 col-sm-2 col-12 mt-3 pr-lg-3 px-0" id="shoppingCar">
         <a href="#">
           <button class="btn btn-default float-left color-bg">
             <i class="fas fa-shopping-cart"></i>
