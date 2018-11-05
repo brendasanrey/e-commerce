@@ -22,7 +22,7 @@
 
       <!-- NOTE Registro -->
       <div class="col-lg-3 col-md-3 col-sm-4 col-6 register px-0 pl-lg-3">
-        <ul class="list-inline text-center text-lg-right text-md-right">
+        <ul class="list-inline text-right">
           <li class="list-inline-item">
             <a href="#modalSignIn" data-toggle="modal">Ingresar</a>
           </li>
