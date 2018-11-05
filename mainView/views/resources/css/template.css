@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+a:visited,
+a:link,
+a:focus,
+a:hover,
+a:active {
+  list-style: none;
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.top-bar {
+  background-color: #8a8a8a;
+}
+
+.top-bar a {
+  color: white;
+}
+
+.color-bg,
+.color-bg a {
+  background-color: #23548c;
+  color: #fff;
+}
+
+.social-network {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* NOTE Colores para iconos redes sociales */
+
+.facebook-white,
+.twitter-white,
+.instagram-white,
+.youtube-white {
+  color: #fff;
+}
+
+.facebook-black,
+.twitter-black,
+.instagram-black,
+.youtube-black {
+  color: #000;
+}
+.facebook-color {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.twitter-color {
+  color: #fff;
+  background-color: #1da1f2;
+}
+
+.instagram-color {
+  color: #fff;
+  background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2);
+}
+
+.youtube-color {
+  color: #fff;
+  background-color: #ff0000;
+}

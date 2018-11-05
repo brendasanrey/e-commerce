@@ -1,0 +1,67 @@
+#top ul {
+  margin-bottom: 10px;
+}
+
+.social ul li a i {
+  font-size: 1.2em;
+  margin: 0 3px;
+}
+
+.register ul {
+  font-size: 1em;
+}
+
+header #btnCategories {
+  font-size: 1.3em;
+}
+
+header #btnCategories p span {
+  cursor: pointer;
+}
+
+header #search {
+  padding-left: 0;
+}
+
+header #search input {
+  padding: 23px;
+  border-radius: 0;
+}
+
+header #search button {
+  border-radius: 0;
+}
+
+header #shoppingCar button {
+  border-radius: 0;
+  padding: 11px 12px;
+}
+
+header #shoppingCar p {
+  padding: 2px;
+  padding-left: 60px;
+  border: 1px solid #aaa;
+  font-size: 0.9em;
+}
+
+header #catogories {
+  display: block;
+  margin-top: -3px;
+  position: relative;
+}
+
+header #catogories h4 {
+  font-size: 1.7em;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+header #catogories hr {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 991.98px) {
+  header #btnCategories {
+    font-size: 1em;
+  }
+}
