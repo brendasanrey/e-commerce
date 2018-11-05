@@ -3,7 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 ul,
@@ -24,7 +24,7 @@ a:active {
   font-family: "Dancing Script", cursive;
 }
 
-.w-60 {
+.w-img {
   width: 60%;
 }
 
@@ -82,4 +82,19 @@ a:active {
 .youtube-color {
   color: #fff;
   background-color: #ff0000;
+}
+
+/* NOTE breakpoint para md (tablets) */
+@media (max-width: 991.98px) {
+  .w-img {
+    width: 90%;
+  }
+}
+
+/* NOTE breakpoint para xs (celulares) */
+
+@media (max-width: 575.98px) {
+  .w-img {
+    width: 50%;
+  }
 }

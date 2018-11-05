@@ -42,16 +42,16 @@
     <!-- NOTE logo -->
       <div class="col-lg-3 col-md-3 col-sm-2 col-12 mt-1 mb-2 text-center text-lg-left" id="logo">
         <a href="#">
-          <img src="../adminView/views/resources/assets/images/mi-logo.png" class="img-fluid w-60">
+          <img src="../adminView/views/resources/assets/images/mi-logo.png" class="img-fluid w-img">
         </a>
       </div>
 
       <!-- NOTE Boton Categorias y buscador -->
       <div class="col-lg-6 col-md-6 col-sm-8 col-12">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-12 color-bg mt-3" id="btnCategories">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-12 color-bg mt-3 btnCategories">
             <p class="title my-2 pl-2">Categorías
-              <span class="float-right"><i class="fas fa-bars"></i></span>
+              <span class="float-right" id="btnCategories"><i class="fas fa-bars"></i></span>
             </p>
           </div>
 
@@ -70,15 +70,15 @@
           </button>
         </a>
         <p>
-          Pedido <span class="amount"></span> <br> MXN $ <span class="total"></span>
+          Productos <span class="amount"></span> <br> MXN $ <span class="total"></span>
         </p>
       </div>
 
       <!-- NOTE Categorías -->
-      <div class="col-12 color-bg" id="catogories">
+      <div class="col-12 color-bg" id="categories">
         <div class="row">
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><a href="#" class="pixel-categories title">Mujeres</a></h4>
             <hr>
             <ul>
@@ -90,7 +90,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><a href="#" class="pixel-categories title">Hombres</a></h4>
             <hr>
             <ul>
@@ -102,7 +102,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><a href="#" class="pixel-categories title">Niñas</a></h4>
             <hr>
             <ul>
@@ -114,7 +114,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><a href="#" class="pixel-categories title">Niños</a></h4>
             <hr>
             <ul>
@@ -126,7 +126,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><a href="#" class="pixel-categories title">Bebés</a></h4>
             <hr>
             <ul>
@@ -138,7 +138,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><a href="#" class="pixel-categories title">Accesorios</a></h4>
             <hr>
             <ul>
