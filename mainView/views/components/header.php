@@ -5,18 +5,17 @@
     <!-- NOTE Redes sociales -->
       <div class="col-lg-9 col-md-9 col-sm-8 col-6 social px-0 pr-lg-3">
         <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#"><i class="fab fa-facebook-f text-white social-network  facebook-white"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#"><i class="fab fa-youtube text-white social-network youtube-white"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#"><i class="fab fa-twitter text-white social-network twitter-white"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#"><i class="fab fa-instagram text-white social-network instagram-white"></i></a>
-          </li>
+          <?php 
+            // Socilitar al controlador los valores dinamicos
+            $social = TemplateController::templateStyleController();
+            // obtiene el campo "social-networks y lo combierte en arreglo con json_decode
+            $socialJson = json_decode($social["social-networks"],true);
+            foreach ($socialJson as $key => $value) {
+             echo '<li class="list-inline-item">
+                      <a href="'.$value["url"].'"><i class="'.$value["red"].' text-white social-network '.$value["style"].'"></i></a>
+                  </li>';
+            }
+          ?>
         </ul>
       </div>
 
